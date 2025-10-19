@@ -2,10 +2,15 @@
 📘 Overview
 This project implements a Convolutional Neural Network (CNN) model using TensorFlow (v1.16) to classify plant leaf images into multiple disease categories.
 The model is trained on an image dataset containing plant leaf samples labeled under:
+
 Anthracnose
+
 Die Black
+
 Gall Midge
+
 Healthy
+
 The goal is to automatically detect and classify plant diseases from leaf images, helping farmers and researchers in early diagnosis and prevention.
 
 🧠 **Model Architecture**
@@ -16,11 +21,16 @@ Dropout layers for regularization
 Dense layers for final classification
 It uses ReLU activation for intermediate layers and Softmax activation for multi-class output.
 
+
 🧩 **Dataset**
 The dataset consists of images organized in folders:
+
 ├── Anthracnose
+
 ├── Die Black
+
 ├── Gall Midge
+
 └── Healthy
 
 Images are preprocessed using:
